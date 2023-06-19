@@ -1,6 +1,6 @@
 # eslint-plugin-handmade
 
-shared eslint config for handmade systems
+Shared eslint config for [Handmade Systems](https://handmade-systems.de/)
 
 ## Installation
 

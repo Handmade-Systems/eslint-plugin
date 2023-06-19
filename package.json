@@ -21,13 +21,13 @@
     "update:eslint-docs": "eslint-doc-generator"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^13.4.4",
+    "@next/eslint-plugin-next": "^13.4.6",
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
-    "eslint": ">=7",
-    "eslint-config-next": "^13.4.5",
+    "eslint": ">=8",
+    "eslint-config-next": "^13.4.6",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-turbo": "^1.10.3",
-    "eslint-plugin-eslint-plugin": "^5.0.0",
+    "eslint-plugin-eslint-plugin": "^5.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
