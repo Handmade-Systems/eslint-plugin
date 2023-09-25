@@ -38,11 +38,3 @@ Then configure the rules you want to use under the rules section.
     }
 }
 ```
-
-## Rules
-
-<!-- begin auto-generated rules list -->
-TODO: Run eslint-doc-generator to generate the rules list.
-<!-- end auto-generated rules list -->
-
-
