@@ -11,14 +11,13 @@
     "access": "public"
   },
   "author": "Handmade Systems",
-  "main": "./index.js",
+  "main": "index.js",
   "exports": "./index.js",
   "scripts": {
     "lint": "npm-run-all \"lint:*\"",
     "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
     "lint:js": "eslint .",
-    "test": "exit 0",
-    "update:eslint-docs": "eslint-doc-generator"
+    "test": "exit 0"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^13.4.6",
