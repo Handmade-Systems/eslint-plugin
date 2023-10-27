@@ -22,7 +22,7 @@
   "dependencies": {
     "@next/eslint-plugin-next": "^13.5.4",
     "@trivago/prettier-plugin-sort-imports": "^4.2.1",
-    "eslint": ">=8",
+    "eslint": ">=8.51.0",
     "eslint-config-next": "^13.5.4",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-turbo": "^1.10.15",
