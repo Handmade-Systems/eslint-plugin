@@ -23,7 +23,7 @@
     "@next/eslint-plugin-next": "^13.5.4",
     "@trivago/prettier-plugin-sort-imports": "^4.2.1",
     "eslint": ">=8",
-    "eslint-config-next": "^13.5.4",
+    "eslint-config-next": "^14.0.1",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-turbo": "^1.10.15",
     "eslint-plugin-eslint-plugin": "^5.1.1",
