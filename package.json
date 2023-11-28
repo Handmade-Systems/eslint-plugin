@@ -1,6 +1,6 @@
 {
   "name": "@handmade-systems/eslint-plugin",
-  "version": "0.0.13",
+  "version": "1.0.0",
   "description": "Shared eslint config for Handmade Systems",
   "keywords": [
     "eslint",

@@ -10,31 +10,34 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-handmade`:
+Next, install `@handmade-systems/eslint-plugin`:
 
 ```sh
-npm install eslint-plugin-handmade --save-dev
+npm install @handmade-systems/eslint-plugin --save-dev
 ```
 
 ## Usage
 
-Add `handmade` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@handmade-systems` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "handmade"
+        "@handmade-systems"
     ]
 }
 ```
 
 
-Then configure the rules you want to use under the rules section.
+Then configure the rules you want to use under the extends section.
+if you have a react app, use both: base and react
 
 ```json
 {
-    "rules": {
-        "handmade/rule-name": 2
-    }
+    "extends": [
+      "plugin:@handmade-systems/base",
+      "plugin:@handmade-systems/react",
+      "plugin:@handmade-systems/next"
+    ]
 }
 ```
