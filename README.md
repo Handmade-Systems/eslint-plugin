@@ -28,7 +28,6 @@ Add `@handmade-systems` to the plugins section of your `.eslintrc` configuration
 }
 ```
 
-
 For a nextjs app use following config:
 
 ```json
