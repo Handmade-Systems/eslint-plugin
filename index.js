@@ -7,12 +7,12 @@ const configTailwind = require('./lib/configs/tailwind');
 const configPlaywright = require('./lib/configs/playwright');
 
 module.exports = {
-    configs: {
-        next: configNext,
-        react: configReact,
-        base: configBase,
-        storybook: configStorybook,
-        tailwind: configTailwind,
-        playwright: configPlaywright,
-    },
+  configs: {
+    next: configNext,
+    react: configReact,
+    base: configBase,
+    storybook: configStorybook,
+    tailwind: configTailwind,
+    playwright: configPlaywright,
+  },
 };
